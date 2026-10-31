@@ -13,15 +13,28 @@
 
 
 // 2
-let a = + prompt ("a ni kiriting");
-let b = +prompt("b ni kiriting")
+// let a = + prompt ("a ni kiriting");
+// let b = +prompt("b ni kiriting")
 
 
-let hepotenuse = function () {
-    let c = Math.sqrt(a*a + b*b);
-    let S = (a * b)/2;
-    // alert(`Gipotenuzasi (C)= ${c} \n Yuzasi (S) = ${S}`);
-    console.log("c = ", c, "S = ", S);
+// let hepotenuse = function () {
+//     let c = Math.sqrt(a*a + b*b);
+//     let S = (a * b)/2;
+//     // alert(`Gipotenuzasi (C)= ${c} \n Yuzasi (S) = ${S}`);
+//     console.log("c = ", c, "S = ", S);
     
+// }
+// hepotenuse ();
+
+
+// 3
+let a = 3;
+let b = 4;
+let c = 5;
+
+let triangle = () => {
+    let P = a + b + c ;
+    let S = (a * b)/2
+    console.log ("Per =", P , "Yuzi =", S)
 }
-hepotenuse ();
+triangle ();
