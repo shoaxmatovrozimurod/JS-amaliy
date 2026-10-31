@@ -18,7 +18,10 @@ let b = +prompt("b ni kiriting")
 
 
 let hepotenuse = function () {
-    let c = Math.sqrt(a2 + b2);
+    let c = Math.sqrt(a*a + b*b);
     let S = (a * b)/2;
-    alert(`Gipotenuzasi (C)= ${c} n/ Yuzasi (S) = ${S}`);
+    // alert(`Gipotenuzasi (C)= ${c} \n Yuzasi (S) = ${S}`);
+    console.log("c = ", c, "S = ", S);
+    
 }
+hepotenuse ();
