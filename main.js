@@ -6,7 +6,7 @@ let h = +prompt("h ni kiriting");
 function cuboid() {
     let V = a * b * h;
     let S = 2 * (a * b + a * h + b * h );
-    alert ("Hajmi (V)=", V ,"Sirti (S) =", S);
-    // console.log("V=",V, "S=",S );
+    alert (` Hajmi (V)= ${V} \n Sirti (S)= ${S}`);
+    // console.log("V =",V, "S =",S );
 }
 cuboid ();
